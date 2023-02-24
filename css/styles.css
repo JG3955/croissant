@@ -1,9 +1,20 @@
+body {
+  background: #eaf6f6;
+}
+
+.page-container {
+  background-color: white;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 8px 17px 28px 3px rgba(0, 0, 0, 0.2);
+}
+
 h1 {
   text-align: center;
+  padding: 25px 0 0;
 }
 
 img {
   max-width: 200px;
-  max-height: 530px;
-  object-fit: cover;
+  max-height: auto;
 }
